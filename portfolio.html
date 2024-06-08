@@ -5,76 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@900&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#" class=".raleway-bold">WebStudio</a>
-            <ul>
-                <li>
-                    <a href="./index.html" class="roboto-medium">Студія</a>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">WebStudio</a>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="./index.html" class="menu-link">Студія</a>
                 </li>
-                <li>
-                    <a href="#" class="roboto-medium">Портфоліо</a>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Портфоліо</a>
                 </li>
-                <li>
-                    <a href="#" class="roboto-medium">Контакти</a>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Контакти</a>
                 </li>
             </ul>
         </nav>
-        <ul>
-            <li>
-                <a href="mailto:info@devstudio.com" class="roboto-medium">info@devstudio.com</a>
+        <ul class="header-contacts">
+            <li class="header-contact">
+                <a href="mailto:info@devstudio.com" class="header-contact-link">info@devstudio.com</a>
             </li>
-            <li>
-                <a href="tel:+380961111111" class="roboto-medium">+38 096 111 11 11</a>
+            <li class="header-contact">
+                <a href="tel:+380961111111" class="header-contact-link">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
-    <main>
-        <section>
-            <ul>
-                <li><button type="button" class="roboto-medium">Усі</button></li>
-                <li><button type="button" class="roboto-medium">Веб-сайти</button></li>
-                <li><button type="button" class="roboto-medium">Додатки</button></li>
-                <li><button type="button" class="roboto-medium">Дизайн</button></li>
-                <li><button type="button" class="roboto-medium">Маркетинг</button></li>
+    <main class="main">
+        <section class="section">
+            <ul class="gallery-filters">
+                <li class="gallery-filter"><button type="button" class="gallery-filter-button">Усі</button></li>
+                <li class="gallery-filter"><button type="button" class="gallery-filter-button">Веб-сайти</button></li>
+                <li class="gallery-filter"><button type="button" class="gallery-filter-button">Додатки</button></li>
+                <li class="gallery-filter"><button type="button" class="gallery-filter-button">Дизайн</button></li>
+                <li class="gallery-filter"><button type="button" class="gallery-filter-button">Маркетинг</button></li>
             </ul>
-            <ul>
-                <li>
-                    <img src="./images/laptop.jpg" alt="laptop" class="roboto-medium">
-                    <h2 class=".roboto-bold">Технокряк</h2>
-                    <p class=".roboto-regular">Веб-сайт</p>
+            <ul class="gallery">
+                <li class="gallery-item">
+                    <img src="./images/laptop.jpg" alt="laptop" class="gallery-item-img">
+                    <h2 class="gallery-item-title">Технокряк</h2>
+                    <p class="gallery-item-text">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/баскетболисти.jpg" alt="баскетболисти" class="roboto-medium">
@@ -119,17 +95,17 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="#" class=".raleway-bold">WebStudio</a>
-        <address>
-            <p class=".roboto-regular">Ukraine, <br class=".roboto-regular">Kyiv, <br class=".roboto-regular">Lesi
+    <footer class="footer">
+        <a href="/" class="logo">WebStudio</a>
+        <address class="address">
+            <p class="address-text">Ukraine, Kyiv, Lesi
                 Ukrainki street</p>
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com" class=".roboto-regular">info@devstudio.com</a>
+            <ul class="footer-contacts">
+                <li class="footer-contact">
+                    <a href="mailto:info@devstudio.com" class="footer-contact-link">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="tel:+380961111111" class=".roboto-regular">+38 096 111 11 11</a>
+                <li class="footer-contact">
+                    <a href="tel:+380961111111" class="footer-contact-link">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
