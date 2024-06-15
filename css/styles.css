@@ -1,1 +1,53 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+.menu-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+}
 
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+}
+.header-contact {
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+.order-title {
+  font-family: var(--font-family);
+  font-weight: 900;
+}
+.order-button {
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+.pluses-list-item-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+.pluses-list-item-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+.images-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+.workers-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+.worker-name {
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+.worker-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+.address {
+  font-family: var(--font-family);
+  font-weight: 400;
+}
