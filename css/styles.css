@@ -51,3 +51,15 @@
   font-family: var(--font-family);
   font-weight: 400;
 }
+.gallery-filter {
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+.gallery-item-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+.gallery-item-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+}
